@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 import me.kentin.getoffnow.R;
-import me.kentin.getoffnow.Route;
+import me.kentin.getoffnow.beans.Route;
 import me.kentin.getoffnow.constants.HiddenConstants;
 import retrofit.Callback;
 import retrofit.RestAdapter;
