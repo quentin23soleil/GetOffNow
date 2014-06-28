@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <fragment
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+  <EditText
+    android:layout_marginTop="@dimen/margin_top_edittext_translucent"
+    android:layout_marginLeft="@dimen/margin_left_right_small"
+    android:paddingLeft="20dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="15dp"
+    android:paddingTop="20dp"
+    android:layout_marginRight="@dimen/margin_left_right_small"
+    android:background="@drawable/card_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+  <Button
+    android:text="Notify me when I'm close"
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_marginBottom="@dimen/margin_bottom_translucent"
+    android:background="@drawable/card_bg_selector"
+    android:paddingTop="@dimen/padding_top_medium"
+    android:paddingBottom="@dimen/padding_top_medium"
+    android:layout_width="match_parent"
+    android:onClick="startSearch"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_height="wrap_content" />
+
+</FrameLayout>

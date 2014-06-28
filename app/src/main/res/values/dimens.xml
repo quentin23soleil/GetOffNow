@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="margin_top_translucent">0dp</dimen>
+  <dimen name="margin_top_edittext_translucent">10dp</dimen>
+  <dimen name="margin_bottom_translucent">30dp</dimen>
+  <dimen name="margin_left_right_small">8dp</dimen>
+  <dimen name="padding_top_medium">20dp</dimen>
+
+</resources>

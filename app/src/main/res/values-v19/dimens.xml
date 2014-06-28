@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="margin_top_translucent">25dp</dimen>
+  <dimen name="margin_top_edittext_translucent">25dp</dimen>
+  <dimen name="margin_bottom_translucent">68dp</dimen>
+
+</resources>
