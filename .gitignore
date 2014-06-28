@@ -1,7 +1,5 @@
 # Created by http://www.gitignore.io
 
-#!! ERROR: gra is undefined. Use list command to see defined gitignore types !!#
-
 ### Gradle ###
 .gradle
 build/
@@ -93,3 +91,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Custom
+Hidden*
+*.jks
